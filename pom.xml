@@ -590,6 +590,13 @@
                     </plugin>
                 </plugins>
             </build>
+            <distributionManagement>
+              <repository>
+              <id>central</id>
+               <name>ip-172-31-83-219.ec2.internal-releases</name>
+              <url>http://75.101.226.237:8082/artifactory/libs-snapshot</url>
+    </repository>
+</distributionManagement>
         </profile>
    </profiles>
 
